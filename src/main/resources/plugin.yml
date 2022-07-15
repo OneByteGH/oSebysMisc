@@ -1,0 +1,7 @@
+name: oSeby's Misc
+version: '${project.version}'
+main: io.github.onebytegh.sebysmisc.SebysMisc
+api-version: 1.19
+authors: [ OneByteGH, Seby ]
+description: A plugin that has a ton of features my friend Seby suggested, some are fun, some are stupid, some can be useful, while others are just for trolling
+website: github.com/onebytegh

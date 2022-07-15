@@ -1,4 +1,4 @@
-name: oSeby's Misc
+name: oSebysMisc
 version: '${project.version}'
 main: io.github.onebytegh.sebysmisc.SebysMisc
 api-version: 1.19

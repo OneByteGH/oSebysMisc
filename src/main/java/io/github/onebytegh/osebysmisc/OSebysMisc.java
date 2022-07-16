@@ -8,24 +8,24 @@ import java.util.HashMap;
 public final class OSebysMisc extends JavaPlugin {
 
     private final HashMap<Integer, Boolean> featureList = new HashMap<>();
+    String[] ideas = {
+        "Auto Crafter",        // 0
+        "Totem Of Holding",    // 1
+        "Double Door Opening", // 2
+        "Sign Editor",         // 3
+        "Dispensers++",        // 4
+        "Invisible Frames"     // 5
+    };
 
     @Override
     public void onEnable() {
         // Plugin startup logic
-        /*
-        1) Monster Scarer
-        2) Totem Of Holding
-        3) Double Door Opening
-        4) Sign Editor
-        5) Dispensers++
-         */
         ConfigurationSection features = getConfig().getConfigurationSection("features");
         int i = 0;
         for (String key : features.getKeys(false)) {
             i++;
             featureList.put(i, features.getBoolean(key));
         }
-        featureList.put(1, false);
     }
 
     @Override
